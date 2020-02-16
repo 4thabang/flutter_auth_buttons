@@ -68,7 +68,7 @@ class AppleSignInButton extends StatelessWidget {
                   text,
                   textAlign: TextAlign.center,
                   style: TextStyle(
-                    fontSize: 20.0,
+                    fontSize: 18.0,
                     fontFamily: "Montserrat",
                     fontWeight: FontWeight.w500,
                     color: style == AppleButtonStyle.black
