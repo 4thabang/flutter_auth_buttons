@@ -30,6 +30,7 @@ class GoogleSignInButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return StretchableButton(
+      buttonBorderColor: Colors.black,
       buttonColor: darkMode ? Color(0xFF4285F4) : Colors.white,
       borderRadius: borderRadius,
       onPressed: onPressed,
@@ -73,8 +74,9 @@ class GoogleSignInButton extends StatelessWidget {
           padding: const EdgeInsets.fromLTRB(0.0, 8.0, 8.0, 8.0),
           child: Text(
             text,
+            textAlign: TextAlign.center,
             style: TextStyle(
-              fontSize: 18.0,
+              fontSize: 20.0,
               fontFamily: "Montserrat",
               fontWeight: FontWeight.w500,
               color: darkMode ? Colors.white : Colors.black.withOpacity(0.54),

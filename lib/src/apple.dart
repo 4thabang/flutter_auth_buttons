@@ -43,7 +43,7 @@ class AppleSignInButton extends StatelessWidget {
           child: Row(
             children: <Widget>[
               Padding(
-                padding: const EdgeInsets.only(left: 10.0, bottom: 3.0),
+                padding: const EdgeInsets.only(left: 14.0, bottom: 3.0),
                 child: Container(
                   height: 38.0,
                   width: 32.0,
@@ -66,8 +66,9 @@ class AppleSignInButton extends StatelessWidget {
                 padding: const EdgeInsets.fromLTRB(0.0, 8.0, 32.0, 8.0),
                 child: Text(
                   text,
+                  textAlign: TextAlign.center,
                   style: TextStyle(
-                    fontSize: 18.0,
+                    fontSize: 20.0,
                     fontFamily: "Montserrat",
                     fontWeight: FontWeight.w500,
                     color: style == AppleButtonStyle.black
