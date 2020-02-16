@@ -50,7 +50,7 @@ class FacebookSignInButton extends StatelessWidget {
             textAlign: TextAlign.center,
             style: TextStyle(
               // default to the application font-style
-              fontSize: 20.0,
+              fontSize: 18.0,
               fontWeight: FontWeight.w500,
               color: Colors.white,
               fontFamily: "Montserrat"

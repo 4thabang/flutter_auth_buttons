@@ -43,7 +43,7 @@ class AppleSignInButton extends StatelessWidget {
           child: Row(
             children: <Widget>[
               Padding(
-                padding: const EdgeInsets.only(left: 14.0, bottom: 3.0),
+                padding: const EdgeInsets.only(left: 12.0, bottom: 3.0),
                 child: Container(
                   height: 38.0,
                   width: 32.0,
